@@ -1,0 +1,101 @@
+body {
+  min-height: 100vh;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background: #f7f7f7;
+  overflow: auto;
+}
+
+form {
+  background: #fff;
+}
+
+.input-area {
+  padding: 15px 0;
+}
+
+.input-area:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
+
+.input-area span {
+  padding: 0 17px;
+  vertical-align: top;
+  font-size: 14px;
+  color: #666;
+}
+
+input {
+  vertical-align: top;
+  font-size: 14px;
+  color: #999;
+}
+
+.uploader {
+  width: 200px;
+  height: 60px;
+  padding-top: 10px;
+  border-radius: 10px;
+  background-color: #999;
+  text-align: center;
+}
+
+.uploader:active {
+  opacity: .9;
+}
+
+.uploader span {
+  color: #fff;
+  font-size: 12px;
+}
+
+.button {
+  display: block;
+  width: 80%;
+  margin: 40px auto 0;
+  padding: 10px 0;
+  border-radius: 30px;
+  background-color: #409EFF;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+
+.preview {
+  text-align: center;
+  background-color: #ddd;
+  img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 300px;
+  }
+}
+
+.button:active {
+  opacity: .9;
+}
+
+.error {
+  display: none;
+  margin: 20px 0;
+  text-align: center;
+  font-size: 12px;
+  color: #f56c6c;
+}
+
+.notify {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all .5s linear;
+  opacity: 1;
+  padding: 5px 20px;
+  background: rgba(0, 0, 0, .8);
+  color: #fff;
+}
+
+.notify.hidden {
+  opacity: 0;
+}

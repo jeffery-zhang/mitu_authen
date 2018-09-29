@@ -1,0 +1,44 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 17px 0;
+}
+
+h3 {
+  margin: 20px 0 60px;
+  text-align: center;
+  font-size: 22px;
+  &.success {
+    color: #67c23a;
+  }
+  &.wait {
+    color: #f4ea2a;
+  }
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  &.success {
+    background-image: url('./../assets/success.svg');
+  }
+  &.wait {
+    background-image: url('./../assets/wait.svg');
+  }
+}
+
+button {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #67c23a;
+  color: #fff;
+  &:hover, &:active {
+    opacity: .9;
+  }
+}
