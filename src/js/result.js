@@ -18,7 +18,7 @@ $(() => {
         icon = 'wait'
       }
       if (status == 1) {
-        text = '您的认证已审核通过！'
+        text = '您的认证申请已通过审核！'
         icon = 'success'
       }
       $('h3').text(text).addClass(icon)
